@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<algorithm>
+  <shortest_path_algo type="LableSetting">
+  	<CostSpread/>
+  	<LableSetting/>
+  </shortest_path_algo>
+  <o_d	method="fw">
+  	<fw e="0.01" bisec_delta="0.001"/>
+  	<msa n="10"/>
+  </o_d>
+  <node_pair name="od1" flow="50">
+  	<node type="start" id="0"/>
+  	<node type="end" id="3"/>
+  </node_pair>
+  <node_pair name="od2" flow="100">
+  	<node type="start" id="2"/>
+  	<node type="end" id="3"/>
+  </node_pair>
+  <bisec_only>
+    <!-- func1 means: ax + b + c*(ln((d/x)+e)) - m1 + m2 -->
+    <perf-func type="func1" a="3" b="-5" c="-1" d="4" e="-1" m1="0" m2="0"/>
+    <delta value="0.000001"/>
+    <point_start value="0.1"/>
+    <point_end value="4"/>
+  </bisec_only>
+</algorithm>

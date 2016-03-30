@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<links>
+  <link name="a">
+    <flow value="0"/>
+  </link>
+  <link name="b">
+    <flow value="0"/>
+  </link>
+  <link name="c">
+    <flow value="0"/>
+  </link>
+  <link name="d">
+    <flow value="0"/>
+  </link>
+ <link name="e">
+    <flow value="0"/>
+  </link>
+  <link name="f">
+    <flow value="0"/>
+  </link> 
+</links>

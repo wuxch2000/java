@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<output>
+  <console output="yes" threshold="3"/>
+  <file output="yes" threshold="3" file_name="output.txt"/>
+</output>

@@ -1,0 +1,2131 @@
+------- BEGIN ------
+network is:
+LINK"f"[Node(2),Node(1)](flow:0.00,cost:1.00)
+LINK"b"[Node(0),Node(2)](flow:0.00,cost:1.00)
+LINK"e"[Node(0),Node(3)](flow:0.00,cost:5.00)
+LINK"a"[Node(0),Node(1)](flow:0.00,cost:5.00)
+LINK"d"[Node(1),Node(3)](flow:0.00,cost:1.00)
+LINK"c"[Node(2),Node(3)](flow:0.00,cost:2.00)
+
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od1"[Node(0),Node(3)] shortest path x is:
+LINK"b"[Node(0),Node(2)](flow:0.00,cost:1.00)
+LINK"c"[Node(2),Node(3)](flow:0.00,cost:2.00)
+
+ODPair"od2"[Node(2),Node(3)] shortest path x is:
+LINK"c"[Node(2),Node(3)](flow:0.00,cost:2.00)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_x is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:50.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:50.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_x is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:50.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:150.00)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:0.00,cost:1.00)
+LINK"b"[Node(0),Node(2)](flow:50.00,cost:6.00)
+LINK"e"[Node(0),Node(3)](flow:0.00,cost:5.00)
+LINK"a"[Node(0),Node(1)](flow:0.00,cost:5.00)
+LINK"d"[Node(1),Node(3)](flow:0.00,cost:1.00)
+LINK"c"[Node(2),Node(3)](flow:150.00,cost:17.00)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"e"[Node(0),Node(3)](flow:0.00,cost:5.00)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"f"[Node(2),Node(1)](flow:0.00,cost:1.00)
+LINK"d"[Node(1),Node(3)](flow:0.00,cost:1.00)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:100.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:100.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:100.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:100.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+alpha is:0.3842773438
+update_set_x using alpha
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:50.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:150.00)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:38.43)
+LINK"b"[Node(0),Node(2)](flow:30.79)
+LINK"e"[Node(0),Node(3)](flow:19.21)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:38.43)
+LINK"c"[Node(2),Node(3)](flow:92.36)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:38.43,cost:8.69)
+LINK"b"[Node(0),Node(2)](flow:30.79,cost:4.08)
+LINK"e"[Node(0),Node(3)](flow:19.21,cost:10.76)
+LINK"a"[Node(0),Node(1)](flow:0.00,cost:5.00)
+LINK"d"[Node(1),Node(3)](flow:38.43,cost:4.84)
+LINK"c"[Node(2),Node(3)](flow:92.36,cost:11.24)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"a"[Node(0),Node(1)](flow:0.00,cost:5.00)
+LINK"d"[Node(1),Node(3)](flow:38.43,cost:4.84)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"c"[Node(2),Node(3)](flow:92.36,cost:11.24)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:50.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:50.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+alpha is:0.2163085938
+update_set_x using alpha
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:38.43)
+LINK"b"[Node(0),Node(2)](flow:30.79)
+LINK"e"[Node(0),Node(3)](flow:19.21)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:38.43)
+LINK"c"[Node(2),Node(3)](flow:92.36)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:30.12)
+LINK"b"[Node(0),Node(2)](flow:24.13)
+LINK"e"[Node(0),Node(3)](flow:15.06)
+LINK"a"[Node(0),Node(1)](flow:10.82)
+LINK"d"[Node(1),Node(3)](flow:40.93)
+LINK"c"[Node(2),Node(3)](flow:94.01)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:30.12,cost:7.02)
+LINK"b"[Node(0),Node(2)](flow:24.13,cost:3.41)
+LINK"e"[Node(0),Node(3)](flow:15.06,cost:9.52)
+LINK"a"[Node(0),Node(1)](flow:10.82,cost:8.24)
+LINK"d"[Node(1),Node(3)](flow:40.93,cost:5.09)
+LINK"c"[Node(2),Node(3)](flow:94.01,cost:11.40)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"e"[Node(0),Node(3)](flow:15.06,cost:9.52)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"c"[Node(2),Node(3)](flow:94.01,cost:11.40)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+alpha is:0.2348632813
+update_set_x using alpha
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:30.12)
+LINK"b"[Node(0),Node(2)](flow:24.13)
+LINK"e"[Node(0),Node(3)](flow:15.06)
+LINK"a"[Node(0),Node(1)](flow:10.82)
+LINK"d"[Node(1),Node(3)](flow:40.93)
+LINK"c"[Node(2),Node(3)](flow:94.01)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:23.04)
+LINK"b"[Node(0),Node(2)](flow:18.46)
+LINK"e"[Node(0),Node(3)](flow:23.26)
+LINK"a"[Node(0),Node(1)](flow:8.28)
+LINK"d"[Node(1),Node(3)](flow:31.32)
+LINK"c"[Node(2),Node(3)](flow:95.42)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:23.04,cost:5.61)
+LINK"b"[Node(0),Node(2)](flow:18.46,cost:2.85)
+LINK"e"[Node(0),Node(3)](flow:23.26,cost:11.98)
+LINK"a"[Node(0),Node(1)](flow:8.28,cost:7.48)
+LINK"d"[Node(1),Node(3)](flow:31.32,cost:4.13)
+LINK"c"[Node(2),Node(3)](flow:95.42,cost:11.54)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"a"[Node(0),Node(1)](flow:8.28,cost:7.48)
+LINK"d"[Node(1),Node(3)](flow:31.32,cost:4.13)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"f"[Node(2),Node(1)](flow:23.04,cost:5.61)
+LINK"d"[Node(1),Node(3)](flow:31.32,cost:4.13)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:50.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:100.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:100.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:100.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:150.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+alpha is:0.0473632813
+update_set_x using alpha
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:23.04)
+LINK"b"[Node(0),Node(2)](flow:18.46)
+LINK"e"[Node(0),Node(3)](flow:23.26)
+LINK"a"[Node(0),Node(1)](flow:8.28)
+LINK"d"[Node(1),Node(3)](flow:31.32)
+LINK"c"[Node(2),Node(3)](flow:95.42)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:26.69)
+LINK"b"[Node(0),Node(2)](flow:17.59)
+LINK"e"[Node(0),Node(3)](flow:22.16)
+LINK"a"[Node(0),Node(1)](flow:10.25)
+LINK"d"[Node(1),Node(3)](flow:36.94)
+LINK"c"[Node(2),Node(3)](flow:90.90)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:26.69,cost:6.34)
+LINK"b"[Node(0),Node(2)](flow:17.59,cost:2.76)
+LINK"e"[Node(0),Node(3)](flow:22.16,cost:11.65)
+LINK"a"[Node(0),Node(1)](flow:10.25,cost:8.08)
+LINK"d"[Node(1),Node(3)](flow:36.94,cost:4.69)
+LINK"c"[Node(2),Node(3)](flow:90.90,cost:11.09)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"e"[Node(0),Node(3)](flow:22.16,cost:11.65)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"f"[Node(2),Node(1)](flow:26.69,cost:6.34)
+LINK"d"[Node(1),Node(3)](flow:36.94,cost:4.69)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:100.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:100.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:100.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:100.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+alpha is:0.0209960938
+update_set_x using alpha
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:26.69)
+LINK"b"[Node(0),Node(2)](flow:17.59)
+LINK"e"[Node(0),Node(3)](flow:22.16)
+LINK"a"[Node(0),Node(1)](flow:10.25)
+LINK"d"[Node(1),Node(3)](flow:36.94)
+LINK"c"[Node(2),Node(3)](flow:90.90)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:28.23)
+LINK"b"[Node(0),Node(2)](flow:17.22)
+LINK"e"[Node(0),Node(3)](flow:22.75)
+LINK"a"[Node(0),Node(1)](flow:10.04)
+LINK"d"[Node(1),Node(3)](flow:38.26)
+LINK"c"[Node(2),Node(3)](flow:88.99)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:28.23,cost:6.65)
+LINK"b"[Node(0),Node(2)](flow:17.22,cost:2.72)
+LINK"e"[Node(0),Node(3)](flow:22.75,cost:11.82)
+LINK"a"[Node(0),Node(1)](flow:10.04,cost:8.01)
+LINK"d"[Node(1),Node(3)](flow:38.26,cost:4.83)
+LINK"c"[Node(2),Node(3)](flow:88.99,cost:10.90)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"e"[Node(0),Node(3)](flow:22.75,cost:11.82)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"c"[Node(2),Node(3)](flow:88.99,cost:10.90)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+alpha is:0.0952148438
+update_set_x using alpha
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:28.23)
+LINK"b"[Node(0),Node(2)](flow:17.22)
+LINK"e"[Node(0),Node(3)](flow:22.75)
+LINK"a"[Node(0),Node(1)](flow:10.04)
+LINK"d"[Node(1),Node(3)](flow:38.26)
+LINK"c"[Node(2),Node(3)](flow:88.99)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:25.54)
+LINK"b"[Node(0),Node(2)](flow:15.58)
+LINK"e"[Node(0),Node(3)](flow:25.34)
+LINK"a"[Node(0),Node(1)](flow:9.08)
+LINK"d"[Node(1),Node(3)](flow:34.62)
+LINK"c"[Node(2),Node(3)](flow:90.04)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:25.54,cost:6.11)
+LINK"b"[Node(0),Node(2)](flow:15.58,cost:2.56)
+LINK"e"[Node(0),Node(3)](flow:25.34,cost:12.60)
+LINK"a"[Node(0),Node(1)](flow:9.08,cost:7.72)
+LINK"d"[Node(1),Node(3)](flow:34.62,cost:4.46)
+LINK"c"[Node(2),Node(3)](flow:90.04,cost:11.00)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"a"[Node(0),Node(1)](flow:9.08,cost:7.72)
+LINK"d"[Node(1),Node(3)](flow:34.62,cost:4.46)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"f"[Node(2),Node(1)](flow:25.54,cost:6.11)
+LINK"d"[Node(1),Node(3)](flow:34.62,cost:4.46)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:50.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:100.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:100.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:100.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:150.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+alpha is:0.0161132813
+update_set_x using alpha
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:25.54)
+LINK"b"[Node(0),Node(2)](flow:15.58)
+LINK"e"[Node(0),Node(3)](flow:25.34)
+LINK"a"[Node(0),Node(1)](flow:9.08)
+LINK"d"[Node(1),Node(3)](flow:34.62)
+LINK"c"[Node(2),Node(3)](flow:90.04)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:26.74)
+LINK"b"[Node(0),Node(2)](flow:15.33)
+LINK"e"[Node(0),Node(3)](flow:24.93)
+LINK"a"[Node(0),Node(1)](flow:9.74)
+LINK"d"[Node(1),Node(3)](flow:36.48)
+LINK"c"[Node(2),Node(3)](flow:88.59)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:26.74,cost:6.35)
+LINK"b"[Node(0),Node(2)](flow:15.33,cost:2.53)
+LINK"e"[Node(0),Node(3)](flow:24.93,cost:12.48)
+LINK"a"[Node(0),Node(1)](flow:9.74,cost:7.92)
+LINK"d"[Node(1),Node(3)](flow:36.48,cost:4.65)
+LINK"c"[Node(2),Node(3)](flow:88.59,cost:10.86)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"e"[Node(0),Node(3)](flow:24.93,cost:12.48)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"c"[Node(2),Node(3)](flow:88.59,cost:10.86)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+alpha is:0.0346679688
+update_set_x using alpha
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:26.74)
+LINK"b"[Node(0),Node(2)](flow:15.33)
+LINK"e"[Node(0),Node(3)](flow:24.93)
+LINK"a"[Node(0),Node(1)](flow:9.74)
+LINK"d"[Node(1),Node(3)](flow:36.48)
+LINK"c"[Node(2),Node(3)](flow:88.59)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:25.81)
+LINK"b"[Node(0),Node(2)](flow:14.80)
+LINK"e"[Node(0),Node(3)](flow:25.80)
+LINK"a"[Node(0),Node(1)](flow:9.40)
+LINK"d"[Node(1),Node(3)](flow:35.21)
+LINK"c"[Node(2),Node(3)](flow:88.98)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:25.81,cost:6.16)
+LINK"b"[Node(0),Node(2)](flow:14.80,cost:2.48)
+LINK"e"[Node(0),Node(3)](flow:25.80,cost:12.74)
+LINK"a"[Node(0),Node(1)](flow:9.40,cost:7.82)
+LINK"d"[Node(1),Node(3)](flow:35.21,cost:4.52)
+LINK"c"[Node(2),Node(3)](flow:88.98,cost:10.90)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"a"[Node(0),Node(1)](flow:9.40,cost:7.82)
+LINK"d"[Node(1),Node(3)](flow:35.21,cost:4.52)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"f"[Node(2),Node(1)](flow:25.81,cost:6.16)
+LINK"d"[Node(1),Node(3)](flow:35.21,cost:4.52)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:50.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:100.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:100.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:100.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:150.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+alpha is:0.0102539063
+update_set_x using alpha
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:25.81)
+LINK"b"[Node(0),Node(2)](flow:14.80)
+LINK"e"[Node(0),Node(3)](flow:25.80)
+LINK"a"[Node(0),Node(1)](flow:9.40)
+LINK"d"[Node(1),Node(3)](flow:35.21)
+LINK"c"[Node(2),Node(3)](flow:88.98)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:26.57)
+LINK"b"[Node(0),Node(2)](flow:14.64)
+LINK"e"[Node(0),Node(3)](flow:25.54)
+LINK"a"[Node(0),Node(1)](flow:9.82)
+LINK"d"[Node(1),Node(3)](flow:36.39)
+LINK"c"[Node(2),Node(3)](flow:88.07)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:26.57,cost:6.31)
+LINK"b"[Node(0),Node(2)](flow:14.64,cost:2.46)
+LINK"e"[Node(0),Node(3)](flow:25.54,cost:12.66)
+LINK"a"[Node(0),Node(1)](flow:9.82,cost:7.95)
+LINK"d"[Node(1),Node(3)](flow:36.39,cost:4.64)
+LINK"c"[Node(2),Node(3)](flow:88.07,cost:10.81)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"a"[Node(0),Node(1)](flow:9.82,cost:7.95)
+LINK"d"[Node(1),Node(3)](flow:36.39,cost:4.64)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"c"[Node(2),Node(3)](flow:88.07,cost:10.81)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:50.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:50.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+alpha is:0.0180664063
+update_set_x using alpha
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:26.57)
+LINK"b"[Node(0),Node(2)](flow:14.64)
+LINK"e"[Node(0),Node(3)](flow:25.54)
+LINK"a"[Node(0),Node(1)](flow:9.82)
+LINK"d"[Node(1),Node(3)](flow:36.39)
+LINK"c"[Node(2),Node(3)](flow:88.07)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:26.09)
+LINK"b"[Node(0),Node(2)](flow:14.38)
+LINK"e"[Node(0),Node(3)](flow:25.08)
+LINK"a"[Node(0),Node(1)](flow:10.54)
+LINK"d"[Node(1),Node(3)](flow:36.64)
+LINK"c"[Node(2),Node(3)](flow:88.29)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:26.09,cost:6.22)
+LINK"b"[Node(0),Node(2)](flow:14.38,cost:2.44)
+LINK"e"[Node(0),Node(3)](flow:25.08,cost:12.52)
+LINK"a"[Node(0),Node(1)](flow:10.54,cost:8.16)
+LINK"d"[Node(1),Node(3)](flow:36.64,cost:4.66)
+LINK"c"[Node(2),Node(3)](flow:88.29,cost:10.83)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"e"[Node(0),Node(3)](flow:25.08,cost:12.52)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"c"[Node(2),Node(3)](flow:88.29,cost:10.83)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+alpha is:0.0288085938
+update_set_x using alpha
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:26.09)
+LINK"b"[Node(0),Node(2)](flow:14.38)
+LINK"e"[Node(0),Node(3)](flow:25.08)
+LINK"a"[Node(0),Node(1)](flow:10.54)
+LINK"d"[Node(1),Node(3)](flow:36.64)
+LINK"c"[Node(2),Node(3)](flow:88.29)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:25.34)
+LINK"b"[Node(0),Node(2)](flow:13.96)
+LINK"e"[Node(0),Node(3)](flow:25.79)
+LINK"a"[Node(0),Node(1)](flow:10.24)
+LINK"d"[Node(1),Node(3)](flow:35.58)
+LINK"c"[Node(2),Node(3)](flow:88.62)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:25.34,cost:6.07)
+LINK"b"[Node(0),Node(2)](flow:13.96,cost:2.40)
+LINK"e"[Node(0),Node(3)](flow:25.79,cost:12.74)
+LINK"a"[Node(0),Node(1)](flow:10.24,cost:8.07)
+LINK"d"[Node(1),Node(3)](flow:35.58,cost:4.56)
+LINK"c"[Node(2),Node(3)](flow:88.62,cost:10.86)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"a"[Node(0),Node(1)](flow:10.24,cost:8.07)
+LINK"d"[Node(1),Node(3)](flow:35.58,cost:4.56)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"f"[Node(2),Node(1)](flow:25.34,cost:6.07)
+LINK"d"[Node(1),Node(3)](flow:35.58,cost:4.56)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:50.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:100.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:100.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:100.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:150.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+alpha is:0.0073242188
+update_set_x using alpha
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:25.34)
+LINK"b"[Node(0),Node(2)](flow:13.96)
+LINK"e"[Node(0),Node(3)](flow:25.79)
+LINK"a"[Node(0),Node(1)](flow:10.24)
+LINK"d"[Node(1),Node(3)](flow:35.58)
+LINK"c"[Node(2),Node(3)](flow:88.62)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:25.89)
+LINK"b"[Node(0),Node(2)](flow:13.86)
+LINK"e"[Node(0),Node(3)](flow:25.61)
+LINK"a"[Node(0),Node(1)](flow:10.53)
+LINK"d"[Node(1),Node(3)](flow:36.42)
+LINK"c"[Node(2),Node(3)](flow:87.97)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:25.89,cost:6.18)
+LINK"b"[Node(0),Node(2)](flow:13.86,cost:2.39)
+LINK"e"[Node(0),Node(3)](flow:25.61,cost:12.68)
+LINK"a"[Node(0),Node(1)](flow:10.53,cost:8.16)
+LINK"d"[Node(1),Node(3)](flow:36.42,cost:4.64)
+LINK"c"[Node(2),Node(3)](flow:87.97,cost:10.80)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"e"[Node(0),Node(3)](flow:25.61,cost:12.68)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"c"[Node(2),Node(3)](flow:87.97,cost:10.80)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+alpha is:0.0170898438
+update_set_x using alpha
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:25.89)
+LINK"b"[Node(0),Node(2)](flow:13.86)
+LINK"e"[Node(0),Node(3)](flow:25.61)
+LINK"a"[Node(0),Node(1)](flow:10.53)
+LINK"d"[Node(1),Node(3)](flow:36.42)
+LINK"c"[Node(2),Node(3)](flow:87.97)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:25.45)
+LINK"b"[Node(0),Node(2)](flow:13.63)
+LINK"e"[Node(0),Node(3)](flow:26.02)
+LINK"a"[Node(0),Node(1)](flow:10.35)
+LINK"d"[Node(1),Node(3)](flow:35.80)
+LINK"c"[Node(2),Node(3)](flow:88.18)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:25.45,cost:6.09)
+LINK"b"[Node(0),Node(2)](flow:13.63,cost:2.36)
+LINK"e"[Node(0),Node(3)](flow:26.02,cost:12.81)
+LINK"a"[Node(0),Node(1)](flow:10.35,cost:8.11)
+LINK"d"[Node(1),Node(3)](flow:35.80,cost:4.58)
+LINK"c"[Node(2),Node(3)](flow:88.18,cost:10.82)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"a"[Node(0),Node(1)](flow:10.35,cost:8.11)
+LINK"d"[Node(1),Node(3)](flow:35.80,cost:4.58)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"f"[Node(2),Node(1)](flow:25.45,cost:6.09)
+LINK"d"[Node(1),Node(3)](flow:35.80,cost:4.58)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:50.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:100.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:100.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:100.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:150.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+alpha is:0.0053710938
+update_set_x using alpha
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:25.45)
+LINK"b"[Node(0),Node(2)](flow:13.63)
+LINK"e"[Node(0),Node(3)](flow:26.02)
+LINK"a"[Node(0),Node(1)](flow:10.35)
+LINK"d"[Node(1),Node(3)](flow:35.80)
+LINK"c"[Node(2),Node(3)](flow:88.18)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:25.85)
+LINK"b"[Node(0),Node(2)](flow:13.55)
+LINK"e"[Node(0),Node(3)](flow:25.88)
+LINK"a"[Node(0),Node(1)](flow:10.56)
+LINK"d"[Node(1),Node(3)](flow:36.41)
+LINK"c"[Node(2),Node(3)](flow:87.71)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:25.85,cost:6.17)
+LINK"b"[Node(0),Node(2)](flow:13.55,cost:2.36)
+LINK"e"[Node(0),Node(3)](flow:25.88,cost:12.76)
+LINK"a"[Node(0),Node(1)](flow:10.56,cost:8.17)
+LINK"d"[Node(1),Node(3)](flow:36.41,cost:4.64)
+LINK"c"[Node(2),Node(3)](flow:87.71,cost:10.77)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"e"[Node(0),Node(3)](flow:25.88,cost:12.76)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"c"[Node(2),Node(3)](flow:87.71,cost:10.77)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+alpha is:0.0122070313
+update_set_x using alpha
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:25.85)
+LINK"b"[Node(0),Node(2)](flow:13.55)
+LINK"e"[Node(0),Node(3)](flow:25.88)
+LINK"a"[Node(0),Node(1)](flow:10.56)
+LINK"d"[Node(1),Node(3)](flow:36.41)
+LINK"c"[Node(2),Node(3)](flow:87.71)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:25.53)
+LINK"b"[Node(0),Node(2)](flow:13.39)
+LINK"e"[Node(0),Node(3)](flow:26.18)
+LINK"a"[Node(0),Node(1)](flow:10.44)
+LINK"d"[Node(1),Node(3)](flow:35.97)
+LINK"c"[Node(2),Node(3)](flow:87.86)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:25.53,cost:6.11)
+LINK"b"[Node(0),Node(2)](flow:13.39,cost:2.34)
+LINK"e"[Node(0),Node(3)](flow:26.18,cost:12.85)
+LINK"a"[Node(0),Node(1)](flow:10.44,cost:8.13)
+LINK"d"[Node(1),Node(3)](flow:35.97,cost:4.60)
+LINK"c"[Node(2),Node(3)](flow:87.86,cost:10.79)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"a"[Node(0),Node(1)](flow:10.44,cost:8.13)
+LINK"d"[Node(1),Node(3)](flow:35.97,cost:4.60)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"f"[Node(2),Node(1)](flow:25.53,cost:6.11)
+LINK"d"[Node(1),Node(3)](flow:35.97,cost:4.60)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:50.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:100.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:100.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:100.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:150.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+alpha is:0.0034179688
+update_set_x using alpha
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:25.53)
+LINK"b"[Node(0),Node(2)](flow:13.39)
+LINK"e"[Node(0),Node(3)](flow:26.18)
+LINK"a"[Node(0),Node(1)](flow:10.44)
+LINK"d"[Node(1),Node(3)](flow:35.97)
+LINK"c"[Node(2),Node(3)](flow:87.86)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:25.78)
+LINK"b"[Node(0),Node(2)](flow:13.34)
+LINK"e"[Node(0),Node(3)](flow:26.09)
+LINK"a"[Node(0),Node(1)](flow:10.57)
+LINK"d"[Node(1),Node(3)](flow:36.36)
+LINK"c"[Node(2),Node(3)](flow:87.56)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:25.78,cost:6.16)
+LINK"b"[Node(0),Node(2)](flow:13.34,cost:2.33)
+LINK"e"[Node(0),Node(3)](flow:26.09,cost:12.83)
+LINK"a"[Node(0),Node(1)](flow:10.57,cost:8.17)
+LINK"d"[Node(1),Node(3)](flow:36.36,cost:4.64)
+LINK"c"[Node(2),Node(3)](flow:87.56,cost:10.76)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"a"[Node(0),Node(1)](flow:10.57,cost:8.17)
+LINK"d"[Node(1),Node(3)](flow:36.36,cost:4.64)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"c"[Node(2),Node(3)](flow:87.56,cost:10.76)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:50.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:50.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+alpha is:0.0063476563
+update_set_x using alpha
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:25.78)
+LINK"b"[Node(0),Node(2)](flow:13.34)
+LINK"e"[Node(0),Node(3)](flow:26.09)
+LINK"a"[Node(0),Node(1)](flow:10.57)
+LINK"d"[Node(1),Node(3)](flow:36.36)
+LINK"c"[Node(2),Node(3)](flow:87.56)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:25.62)
+LINK"b"[Node(0),Node(2)](flow:13.26)
+LINK"e"[Node(0),Node(3)](flow:25.92)
+LINK"a"[Node(0),Node(1)](flow:10.82)
+LINK"d"[Node(1),Node(3)](flow:36.44)
+LINK"c"[Node(2),Node(3)](flow:87.64)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:25.62,cost:6.12)
+LINK"b"[Node(0),Node(2)](flow:13.26,cost:2.33)
+LINK"e"[Node(0),Node(3)](flow:25.92,cost:12.78)
+LINK"a"[Node(0),Node(1)](flow:10.82,cost:8.25)
+LINK"d"[Node(1),Node(3)](flow:36.44,cost:4.64)
+LINK"c"[Node(2),Node(3)](flow:87.64,cost:10.76)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"e"[Node(0),Node(3)](flow:25.92,cost:12.78)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"c"[Node(2),Node(3)](flow:87.64,cost:10.76)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+alpha is:0.0112304688
+update_set_x using alpha
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:25.62)
+LINK"b"[Node(0),Node(2)](flow:13.26)
+LINK"e"[Node(0),Node(3)](flow:25.92)
+LINK"a"[Node(0),Node(1)](flow:10.82)
+LINK"d"[Node(1),Node(3)](flow:36.44)
+LINK"c"[Node(2),Node(3)](flow:87.64)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:25.33)
+LINK"b"[Node(0),Node(2)](flow:13.11)
+LINK"e"[Node(0),Node(3)](flow:26.19)
+LINK"a"[Node(0),Node(1)](flow:10.70)
+LINK"d"[Node(1),Node(3)](flow:36.03)
+LINK"c"[Node(2),Node(3)](flow:87.77)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:25.33,cost:6.07)
+LINK"b"[Node(0),Node(2)](flow:13.11,cost:2.31)
+LINK"e"[Node(0),Node(3)](flow:26.19,cost:12.86)
+LINK"a"[Node(0),Node(1)](flow:10.70,cost:8.21)
+LINK"d"[Node(1),Node(3)](flow:36.03,cost:4.60)
+LINK"c"[Node(2),Node(3)](flow:87.77,cost:10.78)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"a"[Node(0),Node(1)](flow:10.70,cost:8.21)
+LINK"d"[Node(1),Node(3)](flow:36.03,cost:4.60)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"f"[Node(2),Node(1)](flow:25.33,cost:6.07)
+LINK"d"[Node(1),Node(3)](flow:36.03,cost:4.60)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:50.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:100.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:100.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:100.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:150.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+alpha is:0.0034179688
+update_set_x using alpha
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:25.33)
+LINK"b"[Node(0),Node(2)](flow:13.11)
+LINK"e"[Node(0),Node(3)](flow:26.19)
+LINK"a"[Node(0),Node(1)](flow:10.70)
+LINK"d"[Node(1),Node(3)](flow:36.03)
+LINK"c"[Node(2),Node(3)](flow:87.77)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:25.59)
+LINK"b"[Node(0),Node(2)](flow:13.06)
+LINK"e"[Node(0),Node(3)](flow:26.10)
+LINK"a"[Node(0),Node(1)](flow:10.83)
+LINK"d"[Node(1),Node(3)](flow:36.42)
+LINK"c"[Node(2),Node(3)](flow:87.47)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:25.59,cost:6.12)
+LINK"b"[Node(0),Node(2)](flow:13.06,cost:2.31)
+LINK"e"[Node(0),Node(3)](flow:26.10,cost:12.83)
+LINK"a"[Node(0),Node(1)](flow:10.83,cost:8.25)
+LINK"d"[Node(1),Node(3)](flow:36.42,cost:4.64)
+LINK"c"[Node(2),Node(3)](flow:87.47,cost:10.75)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"e"[Node(0),Node(3)](flow:26.10,cost:12.83)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"c"[Node(2),Node(3)](flow:87.47,cost:10.75)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+alpha is:0.0073242188
+update_set_x using alpha
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:25.59)
+LINK"b"[Node(0),Node(2)](flow:13.06)
+LINK"e"[Node(0),Node(3)](flow:26.10)
+LINK"a"[Node(0),Node(1)](flow:10.83)
+LINK"d"[Node(1),Node(3)](flow:36.42)
+LINK"c"[Node(2),Node(3)](flow:87.47)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:25.40)
+LINK"b"[Node(0),Node(2)](flow:12.97)
+LINK"e"[Node(0),Node(3)](flow:26.28)
+LINK"a"[Node(0),Node(1)](flow:10.75)
+LINK"d"[Node(1),Node(3)](flow:36.16)
+LINK"c"[Node(2),Node(3)](flow:87.57)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:25.40,cost:6.08)
+LINK"b"[Node(0),Node(2)](flow:12.97,cost:2.30)
+LINK"e"[Node(0),Node(3)](flow:26.28,cost:12.88)
+LINK"a"[Node(0),Node(1)](flow:10.75,cost:8.23)
+LINK"d"[Node(1),Node(3)](flow:36.16,cost:4.62)
+LINK"c"[Node(2),Node(3)](flow:87.57,cost:10.76)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"a"[Node(0),Node(1)](flow:10.75,cost:8.23)
+LINK"d"[Node(1),Node(3)](flow:36.16,cost:4.62)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"f"[Node(2),Node(1)](flow:25.40,cost:6.08)
+LINK"d"[Node(1),Node(3)](flow:36.16,cost:4.62)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:50.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:100.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:100.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:100.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:150.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+alpha is:0.0024414063
+update_set_x using alpha
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:25.40)
+LINK"b"[Node(0),Node(2)](flow:12.97)
+LINK"e"[Node(0),Node(3)](flow:26.28)
+LINK"a"[Node(0),Node(1)](flow:10.75)
+LINK"d"[Node(1),Node(3)](flow:36.16)
+LINK"c"[Node(2),Node(3)](flow:87.57)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:25.58)
+LINK"b"[Node(0),Node(2)](flow:12.94)
+LINK"e"[Node(0),Node(3)](flow:26.21)
+LINK"a"[Node(0),Node(1)](flow:10.85)
+LINK"d"[Node(1),Node(3)](flow:36.43)
+LINK"c"[Node(2),Node(3)](flow:87.35)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:25.58,cost:6.12)
+LINK"b"[Node(0),Node(2)](flow:12.94,cost:2.29)
+LINK"e"[Node(0),Node(3)](flow:26.21,cost:12.86)
+LINK"a"[Node(0),Node(1)](flow:10.85,cost:8.26)
+LINK"d"[Node(1),Node(3)](flow:36.43,cost:4.64)
+LINK"c"[Node(2),Node(3)](flow:87.35,cost:10.74)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"e"[Node(0),Node(3)](flow:26.21,cost:12.86)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"c"[Node(2),Node(3)](flow:87.35,cost:10.74)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+alpha is:0.0063476563
+update_set_x using alpha
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:25.58)
+LINK"b"[Node(0),Node(2)](flow:12.94)
+LINK"e"[Node(0),Node(3)](flow:26.21)
+LINK"a"[Node(0),Node(1)](flow:10.85)
+LINK"d"[Node(1),Node(3)](flow:36.43)
+LINK"c"[Node(2),Node(3)](flow:87.35)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:25.42)
+LINK"b"[Node(0),Node(2)](flow:12.85)
+LINK"e"[Node(0),Node(3)](flow:26.36)
+LINK"a"[Node(0),Node(1)](flow:10.78)
+LINK"d"[Node(1),Node(3)](flow:36.20)
+LINK"c"[Node(2),Node(3)](flow:87.43)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:25.42,cost:6.08)
+LINK"b"[Node(0),Node(2)](flow:12.85,cost:2.29)
+LINK"e"[Node(0),Node(3)](flow:26.36,cost:12.91)
+LINK"a"[Node(0),Node(1)](flow:10.78,cost:8.23)
+LINK"d"[Node(1),Node(3)](flow:36.20,cost:4.62)
+LINK"c"[Node(2),Node(3)](flow:87.43,cost:10.74)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"a"[Node(0),Node(1)](flow:10.78,cost:8.23)
+LINK"d"[Node(1),Node(3)](flow:36.20,cost:4.62)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"f"[Node(2),Node(1)](flow:25.42,cost:6.08)
+LINK"d"[Node(1),Node(3)](flow:36.20,cost:4.62)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:50.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:100.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:100.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:100.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:150.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+alpha is:0.0014648438
+update_set_x using alpha
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:25.42)
+LINK"b"[Node(0),Node(2)](flow:12.85)
+LINK"e"[Node(0),Node(3)](flow:26.36)
+LINK"a"[Node(0),Node(1)](flow:10.78)
+LINK"d"[Node(1),Node(3)](flow:36.20)
+LINK"c"[Node(2),Node(3)](flow:87.43)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:25.53)
+LINK"b"[Node(0),Node(2)](flow:12.83)
+LINK"e"[Node(0),Node(3)](flow:26.33)
+LINK"a"[Node(0),Node(1)](flow:10.84)
+LINK"d"[Node(1),Node(3)](flow:36.37)
+LINK"c"[Node(2),Node(3)](flow:87.30)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:25.53,cost:6.11)
+LINK"b"[Node(0),Node(2)](flow:12.83,cost:2.28)
+LINK"e"[Node(0),Node(3)](flow:26.33,cost:12.90)
+LINK"a"[Node(0),Node(1)](flow:10.84,cost:8.25)
+LINK"d"[Node(1),Node(3)](flow:36.37,cost:4.64)
+LINK"c"[Node(2),Node(3)](flow:87.30,cost:10.73)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"a"[Node(0),Node(1)](flow:10.84,cost:8.25)
+LINK"d"[Node(1),Node(3)](flow:36.37,cost:4.64)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"c"[Node(2),Node(3)](flow:87.30,cost:10.73)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:50.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:50.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+alpha is:0.0024414063
+update_set_x using alpha
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:25.53)
+LINK"b"[Node(0),Node(2)](flow:12.83)
+LINK"e"[Node(0),Node(3)](flow:26.33)
+LINK"a"[Node(0),Node(1)](flow:10.84)
+LINK"d"[Node(1),Node(3)](flow:36.37)
+LINK"c"[Node(2),Node(3)](flow:87.30)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:25.47)
+LINK"b"[Node(0),Node(2)](flow:12.80)
+LINK"e"[Node(0),Node(3)](flow:26.26)
+LINK"a"[Node(0),Node(1)](flow:10.93)
+LINK"d"[Node(1),Node(3)](flow:36.40)
+LINK"c"[Node(2),Node(3)](flow:87.34)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:25.47,cost:6.09)
+LINK"b"[Node(0),Node(2)](flow:12.80,cost:2.28)
+LINK"e"[Node(0),Node(3)](flow:26.26,cost:12.88)
+LINK"a"[Node(0),Node(1)](flow:10.93,cost:8.28)
+LINK"d"[Node(1),Node(3)](flow:36.40,cost:4.64)
+LINK"c"[Node(2),Node(3)](flow:87.34,cost:10.73)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"e"[Node(0),Node(3)](flow:26.26,cost:12.88)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"c"[Node(2),Node(3)](flow:87.34,cost:10.73)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:25.47)
+LINK"b"[Node(0),Node(2)](flow:12.80)
+LINK"e"[Node(0),Node(3)](flow:26.26)
+LINK"a"[Node(0),Node(1)](flow:10.93)
+LINK"d"[Node(1),Node(3)](flow:36.40)
+LINK"c"[Node(2),Node(3)](flow:87.34)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:25.47,cost:6.09)
+LINK"b"[Node(0),Node(2)](flow:12.80,cost:2.28)
+LINK"e"[Node(0),Node(3)](flow:26.26,cost:12.88)
+LINK"a"[Node(0),Node(1)](flow:10.93,cost:8.28)
+LINK"d"[Node(1),Node(3)](flow:36.40,cost:4.64)
+LINK"c"[Node(2),Node(3)](flow:87.34,cost:10.73)
+
+------- OVER(OD Algo:fw(multi),SP Algo;LableSetting) --------
+network is:
+LINK"f"[Node(2),Node(1)](flow:25.47,cost:6.09)
+LINK"b"[Node(0),Node(2)](flow:12.80,cost:2.28)
+LINK"e"[Node(0),Node(3)](flow:26.26,cost:12.88)
+LINK"a"[Node(0),Node(1)](flow:10.93,cost:8.28)
+LINK"d"[Node(1),Node(3)](flow:36.40,cost:4.64)
+LINK"c"[Node(2),Node(3)](flow:87.34,cost:10.73)
+
+------- BEGIN ------
+network is:
+LINK"f"[Node(2),Node(1)](flow:0.00,cost:1.00)
+LINK"b"[Node(0),Node(2)](flow:0.00,cost:1.00)
+LINK"e"[Node(0),Node(3)](flow:0.00,cost:5.00)
+LINK"a"[Node(0),Node(1)](flow:0.00,cost:5.00)
+LINK"d"[Node(1),Node(3)](flow:0.00,cost:1.00)
+LINK"c"[Node(2),Node(3)](flow:0.00,cost:2.00)
+
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od1"[Node(0),Node(3)] shortest path x is:
+LINK"b"[Node(0),Node(2)](flow:0.00,cost:1.00)
+LINK"c"[Node(2),Node(3)](flow:0.00,cost:2.00)
+
+ODPair"od2"[Node(2),Node(3)] shortest path x is:
+LINK"c"[Node(2),Node(3)](flow:0.00,cost:2.00)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_x is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:50.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:50.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_x is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:50.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:150.00)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:0.00,cost:1.00)
+LINK"b"[Node(0),Node(2)](flow:50.00,cost:6.00)
+LINK"e"[Node(0),Node(3)](flow:0.00,cost:5.00)
+LINK"a"[Node(0),Node(1)](flow:0.00,cost:5.00)
+LINK"d"[Node(1),Node(3)](flow:0.00,cost:1.00)
+LINK"c"[Node(2),Node(3)](flow:150.00,cost:17.00)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"e"[Node(0),Node(3)](flow:0.00,cost:5.00)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"f"[Node(2),Node(1)](flow:0.00,cost:1.00)
+LINK"d"[Node(1),Node(3)](flow:0.00,cost:1.00)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:100.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:100.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:100.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:100.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+alpha is:0.3842773438
+update_set_x using alpha
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:50.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:150.00)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:38.43)
+LINK"b"[Node(0),Node(2)](flow:30.79)
+LINK"e"[Node(0),Node(3)](flow:19.21)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:38.43)
+LINK"c"[Node(2),Node(3)](flow:92.36)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:38.43,cost:8.69)
+LINK"b"[Node(0),Node(2)](flow:30.79,cost:4.08)
+LINK"e"[Node(0),Node(3)](flow:19.21,cost:10.76)
+LINK"a"[Node(0),Node(1)](flow:0.00,cost:5.00)
+LINK"d"[Node(1),Node(3)](flow:38.43,cost:4.84)
+LINK"c"[Node(2),Node(3)](flow:92.36,cost:11.24)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"a"[Node(0),Node(1)](flow:0.00,cost:5.00)
+LINK"d"[Node(1),Node(3)](flow:38.43,cost:4.84)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"c"[Node(2),Node(3)](flow:92.36,cost:11.24)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:50.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:50.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+alpha is:0.2163085938
+update_set_x using alpha
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:38.43)
+LINK"b"[Node(0),Node(2)](flow:30.79)
+LINK"e"[Node(0),Node(3)](flow:19.21)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:38.43)
+LINK"c"[Node(2),Node(3)](flow:92.36)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:30.12)
+LINK"b"[Node(0),Node(2)](flow:24.13)
+LINK"e"[Node(0),Node(3)](flow:15.06)
+LINK"a"[Node(0),Node(1)](flow:10.82)
+LINK"d"[Node(1),Node(3)](flow:40.93)
+LINK"c"[Node(2),Node(3)](flow:94.01)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:30.12,cost:7.02)
+LINK"b"[Node(0),Node(2)](flow:24.13,cost:3.41)
+LINK"e"[Node(0),Node(3)](flow:15.06,cost:9.52)
+LINK"a"[Node(0),Node(1)](flow:10.82,cost:8.24)
+LINK"d"[Node(1),Node(3)](flow:40.93,cost:5.09)
+LINK"c"[Node(2),Node(3)](flow:94.01,cost:11.40)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"e"[Node(0),Node(3)](flow:15.06,cost:9.52)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"c"[Node(2),Node(3)](flow:94.01,cost:11.40)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+alpha is:0.2348632813
+update_set_x using alpha
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:30.12)
+LINK"b"[Node(0),Node(2)](flow:24.13)
+LINK"e"[Node(0),Node(3)](flow:15.06)
+LINK"a"[Node(0),Node(1)](flow:10.82)
+LINK"d"[Node(1),Node(3)](flow:40.93)
+LINK"c"[Node(2),Node(3)](flow:94.01)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:23.04)
+LINK"b"[Node(0),Node(2)](flow:18.46)
+LINK"e"[Node(0),Node(3)](flow:23.26)
+LINK"a"[Node(0),Node(1)](flow:8.28)
+LINK"d"[Node(1),Node(3)](flow:31.32)
+LINK"c"[Node(2),Node(3)](flow:95.42)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:23.04,cost:5.61)
+LINK"b"[Node(0),Node(2)](flow:18.46,cost:2.85)
+LINK"e"[Node(0),Node(3)](flow:23.26,cost:11.98)
+LINK"a"[Node(0),Node(1)](flow:8.28,cost:7.48)
+LINK"d"[Node(1),Node(3)](flow:31.32,cost:4.13)
+LINK"c"[Node(2),Node(3)](flow:95.42,cost:11.54)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"a"[Node(0),Node(1)](flow:8.28,cost:7.48)
+LINK"d"[Node(1),Node(3)](flow:31.32,cost:4.13)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"f"[Node(2),Node(1)](flow:23.04,cost:5.61)
+LINK"d"[Node(1),Node(3)](flow:31.32,cost:4.13)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:50.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:100.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:100.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:100.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:150.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+alpha is:0.0473632813
+update_set_x using alpha
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:23.04)
+LINK"b"[Node(0),Node(2)](flow:18.46)
+LINK"e"[Node(0),Node(3)](flow:23.26)
+LINK"a"[Node(0),Node(1)](flow:8.28)
+LINK"d"[Node(1),Node(3)](flow:31.32)
+LINK"c"[Node(2),Node(3)](flow:95.42)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:26.69)
+LINK"b"[Node(0),Node(2)](flow:17.59)
+LINK"e"[Node(0),Node(3)](flow:22.16)
+LINK"a"[Node(0),Node(1)](flow:10.25)
+LINK"d"[Node(1),Node(3)](flow:36.94)
+LINK"c"[Node(2),Node(3)](flow:90.90)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:26.69,cost:6.34)
+LINK"b"[Node(0),Node(2)](flow:17.59,cost:2.76)
+LINK"e"[Node(0),Node(3)](flow:22.16,cost:11.65)
+LINK"a"[Node(0),Node(1)](flow:10.25,cost:8.08)
+LINK"d"[Node(1),Node(3)](flow:36.94,cost:4.69)
+LINK"c"[Node(2),Node(3)](flow:90.90,cost:11.09)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"e"[Node(0),Node(3)](flow:22.16,cost:11.65)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"f"[Node(2),Node(1)](flow:26.69,cost:6.34)
+LINK"d"[Node(1),Node(3)](flow:36.94,cost:4.69)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:100.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:100.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:100.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:100.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+alpha is:0.0209960938
+update_set_x using alpha
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:26.69)
+LINK"b"[Node(0),Node(2)](flow:17.59)
+LINK"e"[Node(0),Node(3)](flow:22.16)
+LINK"a"[Node(0),Node(1)](flow:10.25)
+LINK"d"[Node(1),Node(3)](flow:36.94)
+LINK"c"[Node(2),Node(3)](flow:90.90)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:28.23)
+LINK"b"[Node(0),Node(2)](flow:17.22)
+LINK"e"[Node(0),Node(3)](flow:22.75)
+LINK"a"[Node(0),Node(1)](flow:10.04)
+LINK"d"[Node(1),Node(3)](flow:38.26)
+LINK"c"[Node(2),Node(3)](flow:88.99)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:28.23,cost:6.65)
+LINK"b"[Node(0),Node(2)](flow:17.22,cost:2.72)
+LINK"e"[Node(0),Node(3)](flow:22.75,cost:11.82)
+LINK"a"[Node(0),Node(1)](flow:10.04,cost:8.01)
+LINK"d"[Node(1),Node(3)](flow:38.26,cost:4.83)
+LINK"c"[Node(2),Node(3)](flow:88.99,cost:10.90)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"e"[Node(0),Node(3)](flow:22.75,cost:11.82)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"c"[Node(2),Node(3)](flow:88.99,cost:10.90)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+alpha is:0.0952148438
+update_set_x using alpha
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:28.23)
+LINK"b"[Node(0),Node(2)](flow:17.22)
+LINK"e"[Node(0),Node(3)](flow:22.75)
+LINK"a"[Node(0),Node(1)](flow:10.04)
+LINK"d"[Node(1),Node(3)](flow:38.26)
+LINK"c"[Node(2),Node(3)](flow:88.99)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:25.54)
+LINK"b"[Node(0),Node(2)](flow:15.58)
+LINK"e"[Node(0),Node(3)](flow:25.34)
+LINK"a"[Node(0),Node(1)](flow:9.08)
+LINK"d"[Node(1),Node(3)](flow:34.62)
+LINK"c"[Node(2),Node(3)](flow:90.04)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:25.54,cost:6.11)
+LINK"b"[Node(0),Node(2)](flow:15.58,cost:2.56)
+LINK"e"[Node(0),Node(3)](flow:25.34,cost:12.60)
+LINK"a"[Node(0),Node(1)](flow:9.08,cost:7.72)
+LINK"d"[Node(1),Node(3)](flow:34.62,cost:4.46)
+LINK"c"[Node(2),Node(3)](flow:90.04,cost:11.00)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"a"[Node(0),Node(1)](flow:9.08,cost:7.72)
+LINK"d"[Node(1),Node(3)](flow:34.62,cost:4.46)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"f"[Node(2),Node(1)](flow:25.54,cost:6.11)
+LINK"d"[Node(1),Node(3)](flow:34.62,cost:4.46)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:50.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:100.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:100.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:100.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:150.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+alpha is:0.0161132813
+update_set_x using alpha
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:25.54)
+LINK"b"[Node(0),Node(2)](flow:15.58)
+LINK"e"[Node(0),Node(3)](flow:25.34)
+LINK"a"[Node(0),Node(1)](flow:9.08)
+LINK"d"[Node(1),Node(3)](flow:34.62)
+LINK"c"[Node(2),Node(3)](flow:90.04)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:26.74)
+LINK"b"[Node(0),Node(2)](flow:15.33)
+LINK"e"[Node(0),Node(3)](flow:24.93)
+LINK"a"[Node(0),Node(1)](flow:9.74)
+LINK"d"[Node(1),Node(3)](flow:36.48)
+LINK"c"[Node(2),Node(3)](flow:88.59)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:26.74,cost:6.35)
+LINK"b"[Node(0),Node(2)](flow:15.33,cost:2.53)
+LINK"e"[Node(0),Node(3)](flow:24.93,cost:12.48)
+LINK"a"[Node(0),Node(1)](flow:9.74,cost:7.92)
+LINK"d"[Node(1),Node(3)](flow:36.48,cost:4.65)
+LINK"c"[Node(2),Node(3)](flow:88.59,cost:10.86)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"e"[Node(0),Node(3)](flow:24.93,cost:12.48)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"c"[Node(2),Node(3)](flow:88.59,cost:10.86)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:50.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:0.00)
+LINK"c"[Node(2),Node(3)](flow:100.00)
+
+alpha is:0.0346679688
+update_set_x using alpha
+m_flow_set_x_all_old is:
+LINK"f"[Node(2),Node(1)](flow:26.74)
+LINK"b"[Node(0),Node(2)](flow:15.33)
+LINK"e"[Node(0),Node(3)](flow:24.93)
+LINK"a"[Node(0),Node(1)](flow:9.74)
+LINK"d"[Node(1),Node(3)](flow:36.48)
+LINK"c"[Node(2),Node(3)](flow:88.59)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:25.81)
+LINK"b"[Node(0),Node(2)](flow:14.80)
+LINK"e"[Node(0),Node(3)](flow:25.80)
+LINK"a"[Node(0),Node(1)](flow:9.40)
+LINK"d"[Node(1),Node(3)](flow:35.21)
+LINK"c"[Node(2),Node(3)](flow:88.98)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:25.81,cost:6.16)
+LINK"b"[Node(0),Node(2)](flow:14.80,cost:2.48)
+LINK"e"[Node(0),Node(3)](flow:25.80,cost:12.74)
+LINK"a"[Node(0),Node(1)](flow:9.40,cost:7.82)
+LINK"d"[Node(1),Node(3)](flow:35.21,cost:4.52)
+LINK"c"[Node(2),Node(3)](flow:88.98,cost:10.90)
+
+ODPair"od1"[Node(0),Node(3)] shortest path y is:
+LINK"a"[Node(0),Node(1)](flow:9.40,cost:7.82)
+LINK"d"[Node(1),Node(3)](flow:35.21,cost:4.52)
+
+ODPair"od2"[Node(2),Node(3)] shortest path y is:
+LINK"f"[Node(2),Node(1)](flow:25.81,cost:6.16)
+LINK"d"[Node(1),Node(3)](flow:35.21,cost:4.52)
+
+ODPair"od1"[Node(0),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:0.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:50.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+ODPair"od2"[Node(2),Node(3)] m_flow_set_y is:
+LINK"f"[Node(2),Node(1)](flow:100.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:0.00)
+LINK"d"[Node(1),Node(3)](flow:100.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+m_flow_set_y_all is:
+LINK"f"[Node(2),Node(1)](flow:100.00)
+LINK"b"[Node(0),Node(2)](flow:0.00)
+LINK"e"[Node(0),Node(3)](flow:0.00)
+LINK"a"[Node(0),Node(1)](flow:50.00)
+LINK"d"[Node(1),Node(3)](flow:150.00)
+LINK"c"[Node(2),Node(3)](flow:0.00)
+
+m_flow_set_x_all is:
+LINK"f"[Node(2),Node(1)](flow:25.81)
+LINK"b"[Node(0),Node(2)](flow:14.80)
+LINK"e"[Node(0),Node(3)](flow:25.80)
+LINK"a"[Node(0),Node(1)](flow:9.40)
+LINK"d"[Node(1),Node(3)](flow:35.21)
+LINK"c"[Node(2),Node(3)](flow:88.98)
+
+loading new m_flow_set_x_all, network is:
+LINK"f"[Node(2),Node(1)](flow:25.81,cost:6.16)
+LINK"b"[Node(0),Node(2)](flow:14.80,cost:2.48)
+LINK"e"[Node(0),Node(3)](flow:25.80,cost:12.74)
+LINK"a"[Node(0),Node(1)](flow:9.40,cost:7.82)
+LINK"d"[Node(1),Node(3)](flow:35.21,cost:4.52)
+LINK"c"[Node(2),Node(3)](flow:88.98,cost:10.90)
+
+------- OVER(OD Algo:fw(multi),SP Algo;LableSetting) --------
+network is:
+LINK"f"[Node(2),Node(1)](flow:25.81,cost:6.16)
+LINK"b"[Node(0),Node(2)](flow:14.80,cost:2.48)
+LINK"e"[Node(0),Node(3)](flow:25.80,cost:12.74)
+LINK"a"[Node(0),Node(1)](flow:9.40,cost:7.82)
+LINK"d"[Node(1),Node(3)](flow:35.21,cost:4.52)
+LINK"c"[Node(2),Node(3)](flow:88.98,cost:10.90)
+
+------- BEGIN ------
+result is :1.7503410339355467
+------- BEGIN ------
+result is :1.7503410339355467
+------- BEGIN ------
+result is :1.7503275513648986
+------- BEGIN ------
+calculating... x=0.1,result=-8.363561646129646
+calculating... x=2.05,result=1.2000104205746607
+calculating... x=1.075,result=-2.775973819104194
+calculating... x=1.5625,result=-0.7571858212614457
+calculating... x=1.80625,result=0.22439046464656548
+calculating... x=1.684375,result=-0.26516005438709017
+calculating... x=1.7453124999999998,result=-0.020140259704670926
+calculating... x=1.7757812499999999,result=0.10217848657450546
+calculating... x=1.7605468749999997,result=0.04103341478226499
+calculating... x=1.7529296874999998,result=0.010450273387012404
+calculating... x=1.74912109375,result=-0.004844054060486991
+calculating... x=1.7510253906249997,result=0.002803342542506082
+calculating... x=1.7500732421874998,result=-0.0010202973024702189
+calculating... x=1.7505493164062498,result=8.915372045459891E-4
+calculating... x=1.750311279296875,result=-6.437639913065007E-5
+calculating... x=1.7504302978515622,result=4.135813147034262E-4
+calculating... x=1.7503707885742186,result=1.7460268584285066E-4
+calculating... x=1.7503410339355467,result=5.5113200378098526E-5
+calculating... x=1.750326156616211,result=-4.631585119652115E-6
+calculating... x=1.7503335952758787,result=2.5240811192539514E-5
+calculating... x=1.7503298759460448,result=1.0304613927203388E-5
+calculating... x=1.7503280162811279,result=2.8365146265141306E-6
+calculating... x=1.7503270864486695,result=-8.975351897255734E-7
+calculating... x=1.7503275513648986,result=9.694897312173545E-7
+result is :1.7503275513648986
+------- BEGIN ------
+calculating... x=0.1,result=-8.363561646129646
+calculating... x=2.05,result=1.2000104205746607
+calculating... x=1.075,result=-2.775973819104194
+calculating... x=1.5625,result=-0.7571858212614457
+calculating... x=1.80625,result=0.22439046464656548
+calculating... x=1.684375,result=-0.26516005438709017
+calculating... x=1.7453124999999998,result=-0.020140259704670926
+calculating... x=1.7757812499999999,result=0.10217848657450546
+calculating... x=1.7605468749999997,result=0.04103341478226499
+calculating... x=1.7529296874999998,result=0.010450273387012404
+calculating... x=1.74912109375,result=-0.004844054060486991
+calculating... x=1.7510253906249997,result=0.002803342542506082
+calculating... x=1.7500732421874998,result=-0.0010202973024702189
+calculating... x=1.7505493164062498,result=8.915372045459891E-4
+calculating... x=1.750311279296875,result=-6.437639913065007E-5
+calculating... x=1.7504302978515622,result=4.135813147034262E-4
+calculating... x=1.7503707885742186,result=1.7460268584285066E-4
+calculating... x=1.7503410339355467,result=5.5113200378098526E-5
+calculating... x=1.750326156616211,result=-4.631585119652115E-6
+calculating... x=1.7503335952758787,result=2.5240811192539514E-5
+calculating... x=1.7503298759460448,result=1.0304613927203388E-5
+calculating... x=1.7503280162811279,result=2.8365146265141306E-6
+calculating... x=1.7503270864486695,result=-8.975351897255734E-7
+calculating... x=1.7503275513648986,result=9.694897312173545E-7
+result is :1.7503275513648986
+------- BEGIN ------
+calculating... x=0.1,result=-8.363561646129646
+calculating... x=2.05,result=1.2000104205746607
+calculating... x=1.075,result=-2.775973819104194
+calculating... x=1.5625,result=-0.7571858212614457
+calculating... x=1.80625,result=0.22439046464656548
+calculating... x=1.684375,result=-0.26516005438709017
+calculating... x=1.7453124999999998,result=-0.020140259704670926
+calculating... x=1.7757812499999999,result=0.10217848657450546
+calculating... x=1.7605468749999997,result=0.04103341478226499
+calculating... x=1.7529296874999998,result=0.010450273387012404
+calculating... x=1.74912109375,result=-0.004844054060486991
+calculating... x=1.7510253906249997,result=0.002803342542506082
+calculating... x=1.7500732421874998,result=-0.0010202973024702189
+calculating... x=1.7505493164062498,result=8.915372045459891E-4
+calculating... x=1.750311279296875,result=-6.437639913065007E-5
+calculating... x=1.7504302978515622,result=4.135813147034262E-4
+calculating... x=1.7503707885742186,result=1.7460268584285066E-4
+calculating... x=1.7503410339355467,result=5.5113200378098526E-5
+calculating... x=1.750326156616211,result=-4.631585119652115E-6
+calculating... x=1.7503335952758787,result=2.5240811192539514E-5
+calculating... x=1.7503298759460448,result=1.0304613927203388E-5
+calculating... x=1.7503280162811279,result=2.8365146265141306E-6
+calculating... x=1.7503270864486695,result=-8.975351897255734E-7
+calculating... x=1.7503275513648986,result=9.694897312173545E-7
+result is :1.7503275513648986

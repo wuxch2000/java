@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Usage:java -jar od.jar -n network.xml -a algo.xml -f flow.xml -o output.xml    -->
+<!--                                                                                -->
+<!-- perf-func should be:                                                           -->
+<!-- <perf-func type="ax_b" a="23" b="12"/>  means cost = a*flow + b                -->
+<!-- <perf-func type="a_x4_b4_c" a="23" b="12" c="12"/>  means cost = a*(x/b)^4+c   -->
+<network>
+  <nodes>
+    <node id="0"/>
+    <node id="1"/>
+    <node id="2"/>
+    <node id="3"/>
+  </nodes>
+  <links>
+    <link name="a">
+      <from-node id="0"/>
+      <to-node id="1"/>
+      <perf-func type="ax_b" a="0.3" b="5"/>
+    </link>
+    <link name="b">
+      <from-node id="0"/>
+      <to-node id="2"/>
+      <perf-func type="ax_b" a="0.1" b="1"/>
+    </link>
+    <link name="c">
+      <from-node id="2"/>
+      <to-node id="3"/>
+      <perf-func type="ax_b" a="0.1" b="2"/>
+    </link>
+    <link name="d">
+      <from-node id="1"/>
+      <to-node id="3"/>
+      <perf-func type="ax_b" a="0.1" b="1"/>
+    </link>
+    <link name="e">
+      <from-node id="0"/>
+      <to-node id="3"/>
+      <perf-func type="ax_b" a="0.3" b="5"/>
+    </link>
+    <link name="f">
+      <from-node id="2"/>
+      <to-node id="1"/>
+      <perf-func type="ax_b" a="0.2" b="1"/>
+    </link>
+  </links>
+</network>
